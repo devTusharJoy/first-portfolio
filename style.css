@@ -1,0 +1,196 @@
+body{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: inherit;
+}
+
+h1{
+    font-family: 'Antonio', sans-serif;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Antonio', sans-serif;
+    font-size: 40px;
+    transform: transl;
+}
+
+h3{
+    color: tomato;
+}
+
+p{
+    color: dimgray;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-weight: 500;
+
+    border-left: 4px solid;
+    padding-left: 10px;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+section{
+    height: 500px;
+}
+
+nav{
+    float: right;
+    height: 100px;
+}
+
+ul li{
+    list-style: none;
+    float: left;
+   padding-top: 20px;
+}
+
+ul li:last-child{
+    padding-right: 100px;
+}
+
+ul a{
+    text-decoration: none;
+    color: dimgray;
+    padding: 10px 20px;
+}
+
+ul a:hover{
+    color: white;
+    background: salmon;
+    border-radius: 5px;
+}
+
+.head h3{
+    color: black;
+}
+
+.highlight{
+    color:rgb(255, 78, 58);
+}
+
+.half{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.half img{
+    width: 70%;
+    height: 50%;
+}
+
+.head .text{
+    margin-top: 80px;
+}
+
+.button{
+    text-decoration: none;
+    color:white;
+    background: linear-gradient(180deg, lightsalmon, tomato);
+    border-radius: 7px;
+    padding: 10px 45px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.about .button {
+    position: relative;
+
+  }
+
+  .about .button::before {
+    content: "";
+    background-image: url(./img/download.svg);
+    background-repeat: no-repeat;
+    width: 2.8rem;
+    height: 2.8rem;
+    position: absolute;
+    left: 0.8rem;
+    top: 0.35rem;
+  }
+
+.project{
+    background: linear-gradient( rgb(250, 239, 234), rgb(250, 221, 207), rgb(250, 182, 173));
+    height: 700px;
+}
+
+.inner{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.project h2{
+    text-align: center;
+    padding: 80px 0 50px 0;
+}
+
+.tripple{
+    width: 25%;
+    float: left;
+    margin:0 2%;
+    background: white;
+    padding: 2%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 7px 6px 30px gray;
+}
+
+.tripple img{
+    width: 100%;
+}
+
+.xtra{
+    margin: 120px 0;
+}
+
+.inquery{
+    height: 200px;
+    margin: 140px auto;
+    width: 60%;
+    background: url("img/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;  
+}
+
+.inquery h1{
+    float: left;
+    margin-top: 7.5%;
+    color: white;
+}
+
+.inquery a{
+    float: right;
+    margin-top: 85px;
+}
+
+.query{
+    margin: 0 50px;
+}
+
+.connection{
+    text-align: center;
+    height: 200px;
+    border-top: 1px solid dimgray;
+    background: linear-gradient( rgb(250, 239, 234), rgb(250, 221, 207), rgb(250, 182, 173));
+}
+
+.connection h3{
+    color: grey;
+}
+
+.connection p{
+    padding-top: 30px;
+    font-weight: 700;
+    font-family: 'Antonio', sans-serif; 
+    border: none;
+}
+
+.small{
+    width: 25px;
+    padding: 2px 7px;
+}
